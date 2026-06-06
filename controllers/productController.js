@@ -52,6 +52,7 @@ export async function createProduct(req,res){
 }
 
 export async function getAllProduct(req,res){
+    
 
     try{
         if(isAdmin(req)){
